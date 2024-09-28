@@ -3,10 +3,16 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #040714;
+    font-weight: 600;
 
 }
+
+a{
+    text-decoration: none;
+}
+
 
 header {
     background-image: url("images/original_2.jpeg");
@@ -46,16 +52,20 @@ header section {
 
 header section h1 {
     font-size: 33px;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 header section h3 {
     font-size: 18px;
     margin-top: -8px;
+    margin-bottom: 19px;
 }
 
 header section p {
     color: #99a7a7;
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 header section .form-container input[type="email"] {
@@ -67,6 +77,8 @@ header section .form-container input[type="email"] {
     outline: none;
     background-color: #32343E;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 header section .form-container button {
@@ -78,6 +90,7 @@ header section .form-container button {
     border-radius: 2px;
     cursor: pointer;
     margin-left: -7px;
+    margin-bottom: 10px;
 }
 
 header section .form-container button:hover {
@@ -89,6 +102,7 @@ header section .form-container button:hover {
 header section h4 {
     color: #99a7a7;
     font-size: 14px;
+    margin-bottom: 19px;
 }
 
 header section h5 {
@@ -98,4 +112,1175 @@ header section h5 {
 
 header section .signe-bas img {
     transform: rotate(270deg);
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+/* Media Queries pour iPad Pro, iPad Air et iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: auto;
+        padding: 20px;
+        background-position: center;
+    }
+
+    header nav button {
+        font-size: 13px;
+        padding: 12px 18px;
+        margin-right: 0;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    header section {
+        margin-top: 200px;
+    }
+
+    header section h1 {
+        font-size: 28px;
+    }
+
+    header section h3 {
+        font-size: 16px;
+    }
+
+    header section p {
+        font-size: 14px;
+    }
+
+    header section .form-container input[type="email"] {
+        
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    header section .form-container button {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+
+    header section h4 {
+        font-size: 15px;
+    }
+
+    header section h5 {
+        font-size: 10px;
+    }
+
+    header section .signe-bas img {
+        width: 20px;
+    }
+}
+
+/* Media Queries pour iPad Mini et autres appareils plus petits */
+@media screen and (max-width: 767px) {
+    header {
+        background-position: center;
+        background-size: cover ;
+        min-height: 100vh;
+        
+    }
+
+    header nav button {
+        font-size: 12px;
+        padding: 8px 15px;
+        margin-right: 0;
+        margin-top: 5px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    header section {
+        margin-top: 360px;
+    }
+
+    header section h1 {
+        font-size: 24px;
+    }
+
+    header section h3 {
+        font-size: 14px;
+    }
+
+    header section p {
+        font-size: 13px;
+    }
+
+    header section .form-container input[type="email"] {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: -2px;
+    }
+
+    header section .form-container button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    header section h4 {
+        font-size: 16px;
+    }
+
+    header section h5 {
+        font-size: 12px;
+    }
+
+    header section .signe-bas img {
+        width: 15px;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    header {
+        height: auto;
+        padding: 10px;
+        background-position: center;
+    }
+
+    header nav button {
+        font-size: 12px;
+        padding: 8px 15px;
+        margin-right: 0;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 13px;
+        padding: 12px 18px;
+    }
+
+
+    header section h1 {
+        font-size: 25px;
+    }
+
+    header section h3 {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+
+    header section p {
+        font-size: 13px;
+    }
+
+    header section .form-container input[type="email"] {
+        width: 100%; 
+        padding: 8px;
+        font-size: 15px;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+    header section .form-container button {
+        width: 100%; 
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 0.5px;
+        border-radius: 7px;
+    }
+
+    header section h4 {
+        font-size: 15px;
+    }
+
+    header section h5 {
+        font-size: 12px;
+    }
+
+    header section .signe-bas img {
+        width: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    margin-top: -40px;
+}
+main .presentation{
+ background-image: url("images/original_4.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 600px;
+ margin-top: 20px;
+ color: white;
+}
+
+main .presentation .conteneur {
+    padding-top: 190px;
+    padding-left: 70px;
+}
+
+main .presentation h1{
+   font-size: 30px;
+}
+
+main .presentation h4{
+    color: #99a7a7;
+    font-size: 13px;
+}
+
+
+main .presentation p{
+    color:#99a7a7 ;
+    font-size: 9px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .presentation h4 {
+        display: block;
+        font-size: 18px;
+    }
+    main .presentation h1 .line-break-1::after {
+        content: '\A';
+        white-space: pre;
+    }
+  main .presentation h4 .line-break-1::after {
+        content: '\A';
+        white-space: pre;
+    }
+
+  main   .presentation h4 .line-break-2::after {
+        content: '\A';
+        white-space: pre;
+    }
+   main  .presentation h4 .line-break-3::after {
+        content: '\A';
+        white-space: pre;
+    }
+    main .presentation {
+        height: 400px;
+        background-position: center;
+        margin-bottom: -10px;
+        margin-top: 15px;
+    }
+
+    main .presentation .conteneur {
+       padding: -0px;
+        padding-left: 30px;
+    }
+
+    main .presentation h1 {
+        font-size: 35px;
+    }
+
+    main .presentation h4 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    main .presentation p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 599px) {
+    main{
+        margin-top: 200px;
+    }
+    main .presentation {
+        height: 300px;
+        background-position: center ; 
+        background-image: url(images/original_3.jpeg);
+    }
+
+    main .presentation .conteneur {
+        padding-top: 20px; 
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+       
+    }
+
+    main .presentation h1 {
+        font-size: 20px;
+        margin-bottom: 10px; 
+        margin-top: -175px;
+    }
+
+    main .presentation h4 {
+        font-size: 14px; 
+    }
+
+    main .presentation p {
+        font-size: 12px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .tableau .container {
+    font-family: Arial, sans-serif;
+    background-color: #040714;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main .tableau .container h1 {
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+main .tableau .container table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: white;
+}
+
+main .tableau .container th, 
+main .tableau .container td {
+    border-bottom: 1px solid #444;
+    padding: 15px;
+    text-align: center;
+    color: #888;
+}
+
+main .tableau .container thead th {
+    border-bottom: 1px solid white;
+    font-weight: normal;
+}
+
+main .tableau .container tbody td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+main .tableau .container td:nth-child(4), 
+main .tableau .container th:nth-child(4) {
+    background-color: #1D1F2B;
+}
+
+main .tableau .container th:nth-child(4), 
+main .tableau .container th:nth-child(3), 
+main .tableau .container th:nth-child(2) {
+    border-top: 1px solid #444;
+}
+
+main .tableau .container th:nth-child(3) button {
+    background-color: #146878;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 19px 25px;
+    border-radius: 5px;
+}
+
+main .tableau .container th:nth-child(2) button {
+    background-color: #146878;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+main .tableau .container th:nth-child(4) button {
+    background-color: #05D6E8;
+    border: none;
+    color: black;
+    font-size: 16px;
+    padding: 19px 25px;
+    border-radius: 5px;
+}
+
+main .tableau .container th:nth-child(3) p, 
+main .tableau .container th:nth-child(2) p {
+    color: #A1A1A3;
+    font-size: 15px;
+}
+
+main .tableau .container th:nth-child(4) p {
+    font-size: 15px;
+}
+
+main .tableau .container .note {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 12px;
+    color: #888;
+    margin-left: -200px;
+    margin-top: -25px;
+}
+
+main .tableau .container .note a {
+    color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    main .tableau .container {
+        padding: 10px;
+        height: auto;
+    }
+
+    main .tableau .container h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    main .tableau .container table {
+        font-size: 14px;
+    }
+
+    main .tableau .container th, 
+    main .tableau .container td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    main .tableau .container th:nth-child(3) button,
+    main .tableau .container th:nth-child(4) button {
+        padding: 19px 15px;
+        font-size: 16px;
+    }
+
+    main .tableau .container th:nth-child(3) p,
+    main .tableau .container th:nth-child(2) p,
+    main .tableau .container th:nth-child(4) p {
+        font-size: 13px;
+    }
+
+    main .tableau .container .note {
+        margin-left: 2px;
+
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    main .tableau .container{
+        padding: 15px;
+        height: auto;
+        display: none;
+    }
+
+    main .tableau .container {
+        padding: 15px;
+        height: auto;
+    }
+
+    main .tableau .container h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main .tableau .container table {
+        font-size: 12px;
+    }
+
+    main .tableau .container th, 
+    main .tableau .container td {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    main .tableau .container th:nth-child(3) button,
+    main .tableau .container th:nth-child(4) button {
+        padding: 19px 20px;
+        font-size: 14px;
+    }
+
+    main .tableau .container th:nth-child(3) p,
+    main .tableau .container th:nth-child(2) p,
+    main .tableau .container th:nth-child(4) p {
+        font-size: 11px;
+    }
+    main .tableau .container .note {
+        margin-top: -15px;
+        margin-left: 7px;
+    }
+
+    main .tableau .container table {
+        font-size: 12px; 
+        overflow-x: auto; 
+        display: block;
+    }
+
+    main .tableau .container th, 
+    main .tableau .container td {
+        padding: 10px; 
+    }
+
+    main .tableau .container th, 
+    main .tableau .container td {
+        white-space: nowrap;
+    }
+
+    main .tableau .container th:nth-child(4) button,
+    main .tableau .container th:nth-child(3) button {
+        padding: 19px 20px;  
+    }
+
+    main .tableau .container th:nth-child(2) button {
+        padding: 11px 20px; 
+        font-size: 14px; 
+    }
+
+
+    main .tableau .container {
+        position: relative;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    main .tableau .container::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    main .tableau .container::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+    }
+
+    main .tableau .container::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+   
+
+    main .tableau .container::after {
+        content: "→";
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        opacity: 0.7;
+        pointer-events: none;
+    }
+ }
+
+
+
+
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .tableau-pour-tel {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 50px;
+}
+
+.tableau-pour-tel .container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.tableau-pour-tel h1 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+}
+
+.tableau-pour-tel .plans {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    border-top: 3px solid #444;
+    
+
+  }
+  
+ 
+  
+  .tableau-pour-tel .plan .price {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  
+  .tableau-pour-tel .plan.standard{
+    margin-left: -25px;
+    margin-top: 15px;
+  }
+  
+  .tableau-pour-tel .plan.standard-pub{
+    margin-left: 15px ;
+    margin-top: 14px;
+
+  }
+
+  .tableau-pour-tel .plan.premium{
+    margin-top: 10px;
+    margin-left: -35px;
+
+  }
+   .tableau-pour-tel .plan.standard button{
+    background-color: #146878;
+    border: none;
+    color: white;
+    padding: 17px;
+    border-radius: 10px;
+   }
+
+   .tableau-pour-tel .plan.standard-pub button{
+    background-color: #146878;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 10px;
+
+   }
+
+
+   .tableau-pour-tel .plan.premium button{
+    background-color: #05D6E8;    
+    border: none;
+    padding: 17px;
+    color: black;
+    border-radius: 10px;
+
+
+   }
+
+  
+ 
+  
+  /* Style des offres annuelles */
+  .tableau-pour-tel .annual-offer {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    color: #888;
+  }
+  
+  .tableau-pour-tel .annual-offer:first-of-type {
+    border-top: 4px solid white; /* Largeur et couleur du trait */
+    padding-top: 20px; /* Espace entre le trait et le contenu */
+  }
+  
+  /* Style du texte dans les offres annuelles */
+  .tableau-pour-tel .annual-offer p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Style des prix annuels */
+  .tableau-pour-tel .annual-prices {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tableau-pour-tel .price-item {
+    font-size: 16px;
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+
+main .tableau-pour-tel .note {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+main .tableau-pour-tel .note a {
+    color: white;
+}
+
+@media (min-width: 1025px) {
+    .tableau-pour-tel {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tableau-pour-tel {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section .tableau-pour-tel {
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .tableau-pour-tel .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .tableau-pour-tel h1 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .tableau-pour-tel .plans {
+        display: flex;
+        gap: 10px;
+    }
+
+    .tableau-pour-tel .plan {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tableau-pour-tel .plan.premium {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .tableau-pour-tel .plan.standard-pub,
+    .tableau-pour-tel .plan.standard {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .tableau-pour-tel .annual-offer {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    .tableau-pour-tel .price-item {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .tableau-pour-tel .price-item img {
+        width: 12px;
+    }
+}
+
+.presentation2 {
+    color: white;
+    margin-top: 45px;
+}
+
+.presentation2 .images img {
+    width: 1300px;
+}
+
+.presentation2 .titre {
+    text-align: center;
+}
+
+.presentation2 .titre p {
+    color: #888;
+}
+
+.presentation2 .titre h1 {
+    font-size: 35px;
+}
+
+.presentation2 .conteneur {
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentation2 .conteneur .sous-conteneur {
+    text-align: center;
+}
+
+.presentation2 .conteneur .sous-conteneur h2 {
+    font-size: 19px;
+}
+
+.presentation2 .conteneur .sous-conteneur p {
+    color: #888;
+    font-size: 13px;
+}
+
+.tablet-only {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .presentation2 .images img {
+        width: 100%;
+    }
+
+    .presentation2 .titre h1 {
+        font-size: 28px;
+    }
+
+    .presentation2 .conteneur {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .presentation2 .conteneur .sous-conteneur h2 {
+        font-size: 17px;
+    }
+
+    .presentation2 .conteneur .sous-conteneur p {
+        font-size: 14px;
+    }
+
+    .presentation2 .conteneur .sous-conteneur .tablet-only {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentation2 .images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .presentation2 .titre h1 {
+        font-size: 24px;
+    }
+
+    .presentation2 .conteneur {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation2 .conteneur .sous-conteneur {
+        margin-bottom: 20px;
+    }
+
+    .presentation2 .conteneur .sous-conteneur h2 {
+        font-size: 16px;
+    }
+
+    .presentation2 .conteneur .sous-conteneur p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-deroulant {
+    color: #fff;
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-deroulant h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #333;
+    background-color: #13151D;
+    margin-bottom: 10px;
+    padding: px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.menu-deroulant .faq-question h2 {
+    margin-left: 17px;
+    margin-top: 18px;
+}
+
+.faq-toggle {
+    font-size: 32px;
+    color: #fff;
+    transition: transform 0.3s;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.menu-deroulant .faq-answer p,
+li {
+    margin-left: 20px;
+    color: #888;
+    font-size: 15px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-answer a {
+    color: white;
+}
+
+.presentation3 {
+    color: white;
+    margin-top: 35px;
+}
+
+.presentation3 .titre h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.presentation3 .conteneur {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.presentation3 .conteneur .sous-conteneur p {
+    color: #888;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .presentation3 .conteneur {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+
+    .presentation3 .conteneur .sous-conteneur {
+        text-align: center;
+        flex: 1 1 calc(50% - 20px);
+        margin: 10px;
+    }
+
+    .presentation3 .conteneur .sous-conteneur h2 {
+        font-size: 22px;
+    }
+
+    .presentation3 .conteneur .sous-conteneur p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentation3 img {
+        width: 200px;
+    }
+
+    .presentation3 .conteneur {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: -5px;
+    }
+
+    .presentation3 .conteneur .sous-conteneur {
+        text-align: center;
+        margin: 0;
+    }
+
+    .presentation3 .conteneur .sous-conteneur h2 {
+        font-size: 18px;
+    }
+
+    .presentation3 .conteneur .sous-conteneur p {
+        font-size: 13px;
+    }
+}
+
+footer {
+    margin-top: 75px;
+    color: #888;
+}
+
+footer .ligne1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 17px;
+    font-size: 13px;
+}
+
+footer .ligne1 .rotate img {
+    transform: rotate(270deg);
+    padding-top: -155px;
+}
+
+footer .ligne1 .excp1 {
+    color: #888;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+}
+
+footer .ligne2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 17px;
+    font-size: 13px;
+}
+
+footer .ligne3 {
+    text-align: center;
+    margin-top: 25px;
+    gap: 17px;
+    font-size: 13px;
+}
+
+@media (max-width: 767px) {
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer .logo {
+        margin-bottom: 10px;
+    }
+
+    footer .ligne1,
+    footer .ligne2,
+    footer .ligne3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .ligne1 {
+        flex-direction: column;
+    }
+
+    footer .ligne1 div,
+    footer .ligne2 div,
+    footer .ligne3 p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    footer .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    footer .ligne1,
+    footer .ligne2,
+    footer .ligne3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .ligne1 div,
+    footer .ligne2 div,
+    footer .ligne3 p {
+        margin: 0 10px;
+        font-size: 25px;
+        list-style: none;
+    }
+
+    footer .excp1 img {
+        width: 25px;
+        margin-bottom: -5px;
+    }
 }
