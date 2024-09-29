@@ -616,7 +616,7 @@ main .tableau .container .note a {
     main .tableau .container{
         padding: 15px;
         height: auto;
-        display: none;
+        
     }
 
     main .tableau .container {
@@ -868,13 +868,13 @@ main .tableau-pour-tel .note a {
 
 @media (min-width: 1025px) {
     .tableau-pour-tel {
-        display: none;
+        
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .tableau-pour-tel {
-        display: none;
+       
     }
 }
 
