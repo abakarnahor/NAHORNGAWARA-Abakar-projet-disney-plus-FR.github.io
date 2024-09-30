@@ -291,7 +291,14 @@ header section .signe-bas img {
     }
 }
 
+@media screen and (min-width: 1370px) {
 
+    main .presentation{
+        height: 880px;
+
+    }
+
+} 
 
 
 
