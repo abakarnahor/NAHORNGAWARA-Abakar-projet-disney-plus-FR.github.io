@@ -4,10 +4,75 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #040714;
+    background-color: #000000;
     font-weight: 600;
 
 }
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #0d3640(252, 100%, 69%);
+}
+
+/* Bannière de promotion */
+.promo-banner {
+    background-color: #0d3640(252, 100%, 69%);
+    color:  #dee0e1;;
+    text-align: center;
+    padding: 16px;
+}
+
+.promo-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.promo-banner p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #0063e5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0051c7;
+}
+
+/* Pied de page */
+footer {
+    background-color: #000000;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .ligne {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive design simplifié */
+@media (max-width: 768px) {
+    .promo-banner h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
 
 a{
     text-decoration: none;
@@ -291,14 +356,7 @@ header section .signe-bas img {
     }
 }
 
-@media screen and (min-width: 1370px) {
 
-    main .presentation{
-        height: 880px;
-
-    }
-
-} 
 
 
 
@@ -623,7 +681,7 @@ main .tableau .container .note a {
     main .tableau .container{
         padding: 15px;
         height: auto;
-        
+        display: none;
     }
 
     main .tableau .container {
@@ -875,13 +933,13 @@ main .tableau-pour-tel .note a {
 
 @media (min-width: 1025px) {
     .tableau-pour-tel {
-        
+        display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .tableau-pour-tel {
-       
+        display: none;
     }
 }
 
