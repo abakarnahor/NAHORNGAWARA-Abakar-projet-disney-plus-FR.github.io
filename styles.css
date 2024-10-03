@@ -83,7 +83,7 @@ header {
     background-image: url("images/original_2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 900px;
 }
 
 header nav {
@@ -464,7 +464,7 @@ main .presentation p{
         margin-top: 200px;
     }
     main .presentation {
-        height: 500px;
+        height: 900px;
         background-position: center ; 
         background-image: url(images/original_3.jpeg);
     }
@@ -491,15 +491,6 @@ main .presentation p{
         font-size: 12px; 
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
